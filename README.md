@@ -67,3 +67,5 @@ You can also specify SSH port and any other connection options in the inventory 
 * The script uses the Genie library to parse the output of the `show interfaces` command. Make sure your network devices support the show interfaces command output in a format that can be parsed by Genie.
 
 * Testing done for IOS and IOS-XE
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/bsingh23/nornir_crc_errors)
