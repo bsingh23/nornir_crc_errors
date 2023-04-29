@@ -2,9 +2,9 @@
 
 # Nornir Script: Find Interfaces with CRC Errors
 
-This Nornir script collects CRC errors from Cisco network devices and writes the data to a CSV file and provdide output on screen using RICH table. 
+This Nornir script collects CRC errors from Cisco network devices and writes the data to a CSV file and provide output on screen using RICH table. 
 
-The CSV file contains the hostname, interface, and the number of CRC errors for each interface with at least 10 CRC errors.
+The RICH table and CSV file contains the hostname, interface, and the number of CRC errors for each interface with at least 10 CRC errors.
 
 ## Requirements
 
@@ -68,4 +68,4 @@ You can also specify SSH port and any other connection options in the inventory 
 
 * The script uses the Genie library to parse the output of the `show interfaces` command. Make sure your network devices support the show interfaces command output in a format that can be parsed by Genie.
 
-* Testing done for IOS and IOS-XE
+* Testing done on IOS and IOS-XE
