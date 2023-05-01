@@ -1,0 +1,26 @@
+---
+
+
+switch1:
+    hostname: 192.168.1.1
+    platform: 'ios'
+    username: cisco
+    password: cisco
+    groups:
+        - cisco_group
+
+switch2:
+    hostname: 192.168.1.2
+    platform: 'ios'
+    username: cisco
+    password: cisco
+    groups:
+        - cisco_group
+
+router1:
+    hostname: 192.168.1.3
+    platform: 'ios'
+    username: cisco
+    password: cisco
+    groups:
+        - cisco_group
