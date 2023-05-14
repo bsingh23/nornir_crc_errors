@@ -18,7 +18,7 @@ The RICH table and CSV file contains the hostname, interface, and the number of 
 
 ## Configuration
 
-Configure your network devices in the `inventory/hosts.yaml` file using the following format:
+Configure your network devices in the `hosts.yaml` file using the following format:
 
 ``` yaml
 host_name:
