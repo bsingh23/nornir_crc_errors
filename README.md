@@ -26,6 +26,8 @@ host_name:
     platform: ios
     username: username
     password: password
+    groups: (Optional)
+        - <group_name>
 ```
 
 You can also specify SSH port and any other connection options in the inventory file. Refer to the Nornir documentation for more information.
