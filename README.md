@@ -16,6 +16,8 @@ The RICH table and CSV file contains the hostname, interface, and the number of 
 * Genie library
 * Devices configured for SSH access
 
+Note: Code tested on Python 3.6.8
+
 ## Configuration
 
 Configure your network devices in the `hosts.yaml` file using the following format:
