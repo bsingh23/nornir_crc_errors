@@ -8,7 +8,7 @@ The RICH table and CSV file contains the hostname, interface, and the number of 
 
 ## Requirements
 
-* Python 3.6+
+* Python 3.9+
 * Nornir 3.x
 * Nornir-scrapli plugin
 * Nornir-utils plugin
@@ -16,7 +16,7 @@ The RICH table and CSV file contains the hostname, interface, and the number of 
 * Genie library
 * Devices configured for SSH access
 
-Note: Code tested on Python 3.6.8
+Note: Code tested on Python 3.9.6
 
 ## Configuration
 
