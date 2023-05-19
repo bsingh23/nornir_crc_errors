@@ -10,7 +10,7 @@ from rich import print as rprint
 
 nr = InitNornir(config_file="config_prod.yaml")
 
-# # Prompt the user to enter the minimum number of CRC errors
+# Prompt the user to enter the minimum number of CRC errors
 crc_error_count = input("\nPlease enter the minimum number of CRC error: ")
 
 # Define the header row for the CSV file
