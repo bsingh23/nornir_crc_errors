@@ -6,6 +6,8 @@ This Nornir script collects CRC errors from Cisco network devices and writes the
 
 The RICH table and CSV file contains the hostname, interface, and the number of CRC errors for each interface with at least 10 CRC errors.
 
+Script will prompt the user to enter the minimum number of CRC errors
+
 ## Requirements
 
 * Python 3.9+
@@ -67,8 +69,6 @@ You can also specify SSH port and any other connection options in the inventory 
 | router1   | GigabitEthernet2/0   | 15        |
 
 ## Notes
-
-* The script filters interfaces with at least 10 CRC errors. You can modify this value by changing the number in the list comprehension: `if task.host["facts"][intf]['counters']['in_crc_errors'] >= 10`.
 
 * The script uses the Genie library to parse the output of the `show interfaces` command. Make sure your network devices support the show interfaces command output in a format that can be parsed by Genie.
 
