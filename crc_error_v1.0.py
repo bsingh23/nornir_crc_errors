@@ -11,7 +11,7 @@ from rich import print as rprint
 nr = InitNornir(config_file="config_prod.yaml")
 
 # Prompt the user to enter the minimum number of CRC errors
-crc_error_count = input("\nPlease enter the minimum number of CRC error: ")
+crc_error_count = input("\nPlease enter the minimum number of CRC errors you want to detect: ")
 
 # Define the header row for the CSV file
 header = ["Hostname", "Interface", "CRC Error"]
