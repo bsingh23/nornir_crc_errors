@@ -1,17 +1,17 @@
 from nornir import InitNornir
-from nornir_utils.plugins.functions import print_result
 from nornir_scrapli.tasks import send_command
 from datetime import datetime
 import os
 import csv
-from rich.console import Console, ConsoleThreadLocals
+from rich.console import Console
 from rich.table import Table
 from rich import print as rprint
+from rich.prompt import Prompt
 
-nr = InitNornir(config_file="config_prod.yaml")
+nr = InitNornir(config_file="./config_prod.yaml")
 
-# Prompt the user to enter the minimum number of CRC errors
-crc_error_count = input("\nPlease enter the minimum number of CRC errors you want to detect: ")
+# Define the minimum number of CRC to add in report
+crc_error_count = Prompt.ask("[pink3]\nPlease enter the minimum number of CRC errors you want to detect [/pink3]")
 
 # Define the header row for the CSV file
 header = ["Hostname", "Interface", "CRC Error"]
