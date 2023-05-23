@@ -2,7 +2,7 @@ certifi==2023.5.7
 colorama==0.4.6
 genie[full]
 nornir==3.3.0
-nornir-scrapli==2023.1.30.post1
+nornir-scrapli
 nornir-utils==0.2.0
 ntc-templates==3.3.0
 requests
