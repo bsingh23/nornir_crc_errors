@@ -3,9 +3,9 @@
 inventory:
     plugin: SimpleInventory
     options:
-        host_file: "/net_ops/nornir/hosts.yaml"
-        group_file: "/net_ops/nornir/groups.yaml"
-        defaults_file: "/net_ops/nornir/defaults.yaml"
+        host_file: "./hosts.yaml"
+        group_file: "./groups.yaml"
+        defaults_file: "./defaults.yaml"
 
 runners:
     plugin: threaded
