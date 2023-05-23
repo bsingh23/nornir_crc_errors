@@ -5,7 +5,7 @@ nornir==3.3.0
 nornir-scrapli==2023.1.30.post1
 nornir-utils==0.2.0
 ntc-templates==3.3.0
-requests==2.30.0
+requests
 rich==13.3.5
 scrapli==2023.1.30
 scrapli-cfg==2023.1.30
