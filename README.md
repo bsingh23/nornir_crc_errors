@@ -47,7 +47,7 @@ You can also specify SSH port and any other connection options in the inventory 
 2. Install the dependencies:
 
    ```bash
-   pipe install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 3. Modify the `config_test.yaml` file in the `nornir` directory with your specific settings.
